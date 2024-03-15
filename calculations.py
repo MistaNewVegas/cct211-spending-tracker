@@ -18,7 +18,7 @@ def total_spending_over_time(df, start: str, end: str) -> float: # ex: 03152024-
 
 def budget_balance(daily_budget=None, weekly_budget=None, monthly_budget=None) -> float:
     """ returns spending money left """
-
+# looking back a lot of this stuff is pointless - will clean up with time.
 
 df = read_csv_as_df('sheet.csv')
 result = total_spending_over_time(df, '2022-05-15', '2024-03-17')
