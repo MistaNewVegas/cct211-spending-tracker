@@ -16,9 +16,13 @@ def total_spending_over_time(df, start: str, end: str) -> float: # ex: 03152024-
     total = round(filtered_df['amount'].sum(), 2)
     return f'total expenditure from {start} to {end}: {total}'
 
-def budget_balance(daily_budget=None, weekly_budget=None, monthly_budget=None) -> float:
+def budget_balance() -> float:
     """ returns spending money left """
-# looking back a lot of this stuff is pointless - will clean up with time.
+    # call budgets here
+    # daily, weekly, monthly, etc
+    # easier to call from a table instead of messing around with if/elses
+    # from there literally just take summed values daily/weekly/monthly and find difference.
+    
 
 df = read_csv_as_df('sheet.csv')
 result = total_spending_over_time(df, '2022-05-15', '2024-03-17')
