@@ -45,7 +45,7 @@ class BudgetManager:
         """Open a CSV file and return as DataFrame."""
         df = pd.read_csv(self.csv_file_path)
         df['date'] = pd.to_datetime(df['date'])
-        df['amount'] = df['amount'].replace({'\$': '', ',': '', ' ': ''}, regex=True).astype(float)
+        df['amount'] = df['amount'].replace({r'\$': '', ',': '', ' ': ''}, regex=True).astype(float)
         return df
 
 
