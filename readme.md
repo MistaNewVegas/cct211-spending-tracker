@@ -1,7 +1,7 @@
 # Pynance: Personal Edition
-## Produced by:
-### Daniel Biel
-### Haoyi Ma(Mark)
+### Produced by:
+#### Daniel Biel
+#### Haoyi Ma (Mark)
 
 ## Introduction
 
