@@ -17,7 +17,7 @@ Generate and view charts: Users can generate financial charts for different peri
 
   !!! Please remember your password !!!
   Use default password "password" to access the preset profile and data.
-  Click register to set up your own account and create your own profile data.
+  \nClick register to set up your own account and create your own profile data.
   Dashboard: Quick view of your current financial status, click view image buttons to view your status graphs.
   Sheets: You can view existing transaction records, enter new transaction information and save it.
   Notes: Record more information and details about your spending.
