@@ -17,6 +17,7 @@ Financial reports and charts
 Generate and view charts: Users can generate financial charts for different periods, including weekly, monthly, and annual reports. Charts help users understand trends in spending and revenue.
 
 ## Instructions for use
+A sample sheet has been added for demonstration's sake, the program will generate a blank sheet if launched without the sample sheet. Graphs will not generate until there are at least 10 entries
 
 ### !!! Please remember your password !!!
   Use default password "password" to access the preset profile and data.
