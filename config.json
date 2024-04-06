@@ -1,0 +1,14 @@
+{
+    "user": {
+        "first": "John",
+        "last": "Smith",
+        "password": "password",
+        "daily_budget": "50",
+        "weekly_budget": "100",
+        "monthly_budget": "200",
+        "pwd": "password",
+        "budget_d": "50",
+        "budget_w": "100",
+        "budget_m": "200"
+    }
+}
